@@ -232,9 +232,9 @@ PD 分离部署时，Prefill 实例与 Decode 实例需遵循特定的配比规�
 
 | 名称     | 链接                                  |
 | -------- | ------------------------------------- |
-| DeepSeek | [DeepSeek](模型/DeepSeek/启动服务.md) |
-| GLM      | [GLM](模型/GLM/启动服务.md)           |
-| MiniMax  | [MiniMax](模型/MiniMax/启动服务.md)   |
-| Qwen     | [Qwen](模型/Qwen/启动服务.md)         |
-| MiMo     | [MiMo](模型/MiMo/启动服务.md)         |
+| DeepSeek | [DeepSeek](DeepSeek/启动服务.md) |
+| GLM      | [GLM](GLM/启动服务.md)           |
+| MiniMax  | [MiniMax](MiniMax/启动服务.md)   |
+| Qwen     | [Qwen](Qwen/启动服务.md)         |
+| MiMo     | [MiMo](MiMo/启动服务.md)         |
 
