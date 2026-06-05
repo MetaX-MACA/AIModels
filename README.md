@@ -159,7 +159,7 @@ PD 分离部署时，Prefill 实例与 Decode 实例需遵循特定的配比规�
 <th>总节点数</th>
 </tr>
 <tr>
-<td rowspan="2">MiniMax-2.5</td>
+<td rowspan="2">MiniMax-M2.5</td>
 <td rowspan="2">W8A8</td>
 <td>C500/C550</td>
 <td>1P1</td>
