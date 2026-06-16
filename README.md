@@ -49,6 +49,13 @@ PD 分离架构是一种先进的大模型推理优化技术，其核心思想�
 <td>MiMo</td>
 <td>MiMo-V2-Flash</td>
 </tr>
+<tr>
+<td rowspan="2">Kimi</td>
+<td>Kimi-K2.5</td>
+</tr>
+<tr>
+<td>Kimi-K2.6</td>
+</tr>
 </table>
 
 ## 版本配套说明
@@ -60,19 +67,24 @@ PD 分离架构是一种先进的大模型推理优化技术，其核心思想�
 </tr>
 <tr>
 <td>GPU支持型号</td>
-<td colspan="2">曦云C500/C550/C588</td>
+<td colspan="2">曦云C500/C550/C588/C600</td>
 </tr>
 <tr>
 <td>CPU支持架构</td>
 <td colspan="2">X86</td>
 </tr>
 <tr>
+<td rowspan="3">SGLang</td>
+<td>SGLang版本</td>
 <td>MXMACA版本</td>
-<td colspan="2">3.2及以上</td>
 </tr>
 <tr>
-<td>SGLang版本</td>
-<td colspan="2">v0.5.7</td>
+<td>v0.5.7</td>
+<td>3.2及以上</td>
+</tr>
+<tr>
+<td>v0.5.10</td>
+<td>3.7及以上</td>
 </tr>
 </table>
 
@@ -228,6 +240,37 @@ PD 分离部署时，Prefill 实例与 Decode 实例需遵循特定的配比规�
 </tr>
 </table>
 
+### Kimi
+
+<table>
+<tr>
+<th>模型名称</th>
+<th>模型精度</th>
+<th>GPU型号</th>
+<th>Prefill配置</th>
+<th>Decode配置</th>
+<th>总节点数</th>
+</tr>
+<tr>
+<td rowspan="2">
+
+* Kimi-K2.5
+* Kimi-K2.6
+</td>
+<td rowspan="2">W8A8</td>
+<td>C500/C550</td>
+<td>1P4</td>
+<td>1D4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>C588/C600</td>
+<td>1P2</td>
+<td>1D2</td>
+<td>4</td>
+</tr>
+</table>
+
 ## 部署文档
 
 | 名称     | 链接                                  |
@@ -237,4 +280,4 @@ PD 分离部署时，Prefill 实例与 Decode 实例需遵循特定的配比规�
 | MiniMax  | [MiniMax](MiniMax/启动服务.md)   |
 | Qwen     | [Qwen](Qwen/启动服务.md)         |
 | MiMo     | [MiMo](MiMo/启动服务.md)         |
-
+| Kimi     | [Kimi](Kimi/启动服务.md)         |
