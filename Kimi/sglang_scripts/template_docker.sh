@@ -9,7 +9,7 @@ source configs/$(hostname -i).env
 docker stop $CONTAINER_NAME || true
 docker rm $CONTAINER_NAME || true
 
-DOCKER_IMAGE=pub-registry1.metax-tech.com/ai-opentest/release/maca/sglang:0.5.10-maca.ai3.7.1.1-torch2.8-py310-ubuntu22.04-amd64
+DOCKER_IMAGE=cr.metax-tech.com && docker pull cr.metax-tech.com/public-ai-release/maca/sglang:0.5.10-maca.ai3.7.1.12-torch2.8-py312-ubuntu22.04-amd64
 
 
 if [[ $ROLE == "decoder" ]]; then

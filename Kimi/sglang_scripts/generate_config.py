@@ -5,7 +5,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 os.makedirs("configs", exist_ok=True)
 
 container_name='sglang-benchmark-server'
-model_path='/metax0402/metax0402/models/metax-tech/Kimi-K2.6-W8A8/'
+model_path='/xxxxx/models/metax-tech/Kimi-K2.6-W8A8/'
 port=8000
 
 host_list = [
